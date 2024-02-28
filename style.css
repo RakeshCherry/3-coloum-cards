@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    color: hsl(0, 0%, 95%);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.main-container img{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.main-container .cars{
+    padding-left: 30px;
+
+}
+
+.cars h1{
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+.cars p{
+    
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    width: 185px;
+    margin: 35px 40px 35px 0;
+    line-height: 1.5;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.main-container .sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.main-container .suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.main-container .luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+
+.btn{
+    font-family: 'Lexend Deca', sans-serif;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 30px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+}
+
+.btn-1{
+    color: hsl(31, 77%, 52%);
+}
+.btn-2{
+    color: hsl(184, 100%, 22%);
+}
+.btn-3{
+    color: hsl(179, 100%, 13%);
+}
