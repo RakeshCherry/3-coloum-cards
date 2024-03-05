@@ -1,0 +1,16 @@
+@media(max-width: 375px) {
+    body{
+        height: fit-content;
+        overflow: scroll;
+
+    }
+    .main-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .cars p{
+        width: 230px;
+    }
+    
+    
+}
